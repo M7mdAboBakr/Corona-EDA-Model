@@ -185,6 +185,23 @@ else:
     fig.update_traces(marker=dict(line=dict(color='black', width=7)), textinfo="label+percent parent")
 
     col2.plotly_chart(fig, use_container_width=True)
+
+st.divider()
+
+st.markdown("<h1 style='text-align: center; color: #ad79b5; font-size: 50px; font-weight: bold;'>Insights</h1>", unsafe_allow_html=True)
+st.markdown("""  
+            \n- #### The death distribution is slitly affected by gender, the precentage of dead patients is higher in males
+            \n- #### The death distribution is strongly affected by patient type, if the patient is hospitalized, it is more likely to die
+            \n- #### The data distribution is strongly affected but not as much as patient type, more than 80% of patients that haven't pneumonia are not dead unlike the patients that have pneumonia more than 50% of them are dead
+            \n- #### Unlike the expectation, the number of dead patients that haven't obesity is more than the number of patients who have obesity
+            \n- #### More than 4/5 of the not diagnosed patients are alive and more than the half of the diagnosed patients are dead
+            \n- #### The percentage of diagnosed females is less than the percentage of diagnosed males
+            \n- #### If the patient is hospitalized, he is more likely to be diagnosed
+            \n- #### More than 60% percent of patients who have pneumonia are diagnosed, Unlike the patients who haven't pneumonia, only about 40% of them are diagnosed
+            \n- #### After 45 years old, the number of hospitalized patients is getting bigger than the number of home patients
+            \n- #### Under 58 year old, the number of patients who have pneumonia is lower the number of patients who haven't pneumonia
+            \n- #### The patients whose age is less than 67 are more likely to not have hypertension
+            """, unsafe_allow_html=True)
   
 
 
