@@ -85,7 +85,7 @@ if st.button('Predict'):
         st.success("No Corona Virus")
 
     else:
-        st.error("Coronavirus Detected")
+        st.error("Corona Virus Detected")
 
     # st.markdown(f"<h1 style='text-align: center; color: #ad79b5; font-size: 50px; font-weight: bold;'>{y_pred[0]}</h1>", unsafe_allow_html=True)
 
