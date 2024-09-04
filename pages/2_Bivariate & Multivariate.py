@@ -192,7 +192,7 @@ st.markdown("<h1 style='text-align: center; color: #ad79b5; font-size: 50px; fon
 st.markdown("""  
             \n- #### The death distribution is slitly affected by gender, the precentage of dead patients is higher in males
             \n- #### The death distribution is strongly affected by patient type, if the patient is hospitalized, it is more likely to die
-            \n- #### The data distribution is strongly affected but not as much as patient type, more than 80% of patients that haven't pneumonia are not dead unlike the patients that have pneumonia more than 50% of them are dead
+            \n- #### The death distribution is strongly affected with pneumonia but not as much as patient type, more than 80% of patients that haven't pneumonia are not dead unlike the patients that have pneumonia more than 50% of them are dead
             \n- #### Unlike the expectation, the number of dead patients that haven't obesity is more than the number of patients who have obesity
             \n- #### More than 4/5 of the not diagnosed patients are alive and more than the half of the diagnosed patients are dead
             \n- #### The percentage of diagnosed females is less than the percentage of diagnosed males
