@@ -11,6 +11,9 @@ st.set_page_config(
     layout="wide",
     )
 
+st.markdown("<h1 style='text-align: center; color: #ad79b5; font-size: 50px; font-weight: bold;'>Corona Detection Model</h1>", unsafe_allow_html=True)
+st.markdown("\n")
+
 def load_lottieurl(url:str):
     r = requests.get(url)
     if r.status_code !=200:
