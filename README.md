@@ -7,8 +7,8 @@ The dataset contains patient demographics and health conditions (e.g. age, diabe
 ---
 
 🔗 **Live Dashboard:** [Click Here](https://corona-eda-model.streamlit.app/)  
-📂 **Dataset Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data?utm_source=chatgpt.com)
-📓 **Notebook:** End-to-end EDA & Model Training included  
+📂 **Dataset Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data?utm_source=chatgpt.com)  
+📓 **Notebook:** [(Part 1/3) Data Cleaning – Preparing the Dataset](https://www.kaggle.com/code/m7mdabobakr/part-1-3-data-cleaning-preparing-the-dataset)  
 
 ---
 
