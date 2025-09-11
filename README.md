@@ -32,11 +32,10 @@ The dashboard is divided into two interactive sections:
 ### 🏠 Home / EDA  
 - Dataset introduction and summary  
 - Interactive visualizations of demographics and comorbidities  
-- Correlation heatmaps and feature distributions  
+- Feature distributions  
 
 ### 🤖 Prediction Model  
 - Input patient health details to predict **COVID diagnosis**  
-- Model trained on cleaned dataset  
 - **Best performance metric:**  
   - **Recall: 74%** (prioritizing sensitivity over accuracy to reduce false negatives)  
 - Displays classification results directly in the app  
@@ -48,5 +47,5 @@ The dashboard is divided into two interactive sections:
 - **Python 3.10+**  
 - **Streamlit** – interactive web app  
 - **Plotly Express** – data visualization  
-- **Pandas / NumPy** – data manipulation  
+- **Pandas** – data manipulation  
 - **scikit-learn** – machine learning models & evaluation  
