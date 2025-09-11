@@ -2,7 +2,7 @@
 
 An interactive Streamlit dashboard analyzing COVID-19 patient medical records and predicting diagnosis outcomes using Machine Learning.  
 
-The dataset contains patient demographics and health conditions (e.g. age, diabetes, hypertension, obesity, etc.) with outcomes such as diagnosis.  
+The dataset contains patient demographics and health conditions (e.g. age, diabetes, hypertension, obesity, etc.) with outcomes such as diagnosis and mortality.  
 
 ---
 
